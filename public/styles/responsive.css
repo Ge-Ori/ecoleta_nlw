@@ -1,0 +1,42 @@
+@media (max-width: 900px) {
+  #pghome {
+    background-position-x: 70vw;
+  }
+  #pghome .content {
+    align-items: center;
+    text-align: center;
+  }
+  #pghome header a {
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #pghome main {
+    align-items: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  #pghome {
+    background-position-x: 40vw;
+  }
+}
+
+@media (max-width: 768px) {
+  #pghome {
+    background-position-y: 200px;
+  }
+  #pgcreatepoint .field-group {
+    flex-direction: column;
+    }
+  
+  #pgcreatepoint .field-group .field + .field {
+    margin: 0;
+    }
+  #pgsrcresults .cards {
+    grid-template-columns: auto;
+}
+
+}

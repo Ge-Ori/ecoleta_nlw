@@ -1,0 +1,93 @@
+#pghome {
+  height: 100vh;
+  background: url('../assets/home-background.svg') no-repeat;
+  background-position: 35vw bottom;
+}
+
+#pghome header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 46px;
+}
+
+#pghome .content {
+  width: 90%;
+  max-width: 1440;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#pghome header a {
+  color: var(--title-color);
+  display: flex;
+  font-weight: bold;
+}
+
+#pghome header a span {
+  display: flex;
+  background-image: url('../assets/log-in.svg');
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+
+#pghome main {
+  max-width: 560px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#pghome main h1 {
+  font-size: 54px;
+}
+
+#pghome main p {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 100;
+}
+
+#pghome main a {
+  width: 100%;
+  max-width: 360px;
+  background: var(--primary-color);
+  height: 72px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  transition: 400ms;
+  color: white;
+}
+
+#pghome main a:hover {
+  background-color: #2fb86e;
+}
+
+#pghome main a span {
+  width: 72px;
+  height: 72px;
+  background-color: rgba(0,0,0,0.08);
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pghome main a span::after {
+  content: "";
+  background-image: url('../assets/search.svg');
+  width: 20px;
+  height: 20px;
+}
+
+#pghome main a strong {
+  flex: 1;
+  text-align: center;
+}
